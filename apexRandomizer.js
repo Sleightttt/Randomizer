@@ -43,6 +43,7 @@ const displayLegendInfo = function (legend) {
      ${this.legendName}'s tactical ability is ${this.tacticalName}. ${this.tacticalInfo}
      ${this.legendName}'s ultimate ability is ${this.ultimateName}. ${this.ultimateInfo}
       `;
+
 };
 
 const legends = [
@@ -67,6 +68,7 @@ const legends = [
   "Mad Maggie",
   "Newcastle",
   "Vantage",
+  "Catalyst"
 ];
 
 //Array of reroll button strings
@@ -154,8 +156,13 @@ const roll = document
     });
     youHaveRolled.textContent = `You have rolled ${legend} ${counts[legend]} times`;
   });
-console.log(Ash.legendClass);
+console.log(Ash.legendName);
 
 //Make a dropdown of legends to omit from randomizer
 //Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
 //Example: ${legend} is a ${legend.offenseDefense} who excels at xxxx. ${legend.passive} is xxxxx. ${legend.tactical} is xxxxxx. ${legend.Ultimate} is xxxxx
+function echo(string) {
+  return string.toUpperCase() + "..." + string + "..." + string.toLowerCase()
+ }
+
+ console.log(echo("Mom!"));
