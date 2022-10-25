@@ -5,13 +5,13 @@
 }
 
 article {
-  background-color:rgb(174, 29, 29); ;
+  background-image: url(/Images/apex_legends_logo.jpg) ;
   height:60em;
 }
 
 body {
   background-color: rgb(197, 197, 197);
-  background: url(/Images/Scratched.jpg) no-repeat center center;
+  background: url(/Images/Apex\ Season\ 15_CSS.jpg) no-repeat center center;
   -webkit-background-clip: text;
   background-clip:text;
   font-family: Arial;
@@ -41,16 +41,16 @@ body {
 }
 
 .topnav a.active {
-  background-color: #00d5ce;
-  color: rgb(0, 0, 0);
-  border-bottom: 5px solid #66666691;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid #ffffff;
 }
 
 .topnav a.getGame{
 float:right;
 border: 2px solid rgb(0, 0, 0);
 border-top:  3px solid black;
-background-color: rgb(174, 29, 29);;
+background-color: rgb(190, 43, 43);;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
@@ -97,15 +97,9 @@ button {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
   z-index: 1;
+  text-decoration:  solid underline white 1px
 
 }
-
-.BG-ban-color{
- background-color:rgb(174, 29, 29);
-  z-index: 2;
-}
-
-
 
 .randomizer {
   position: absolute;
