@@ -156,13 +156,7 @@ const roll = document
     });
     youHaveRolled.textContent = `You have rolled ${legend} ${counts[legend]} times`;
   });
-console.log(Ash.legendName);
 
 //Make a dropdown of legends to omit from randomizer
 //Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
 //Example: ${legend} is a ${legend.offenseDefense} who excels at xxxx. ${legend.passive} is xxxxx. ${legend.tactical} is xxxxxx. ${legend.Ultimate} is xxxxx
-function echo(string) {
-  return string.toUpperCase() + "..." + string + "..." + string.toLowerCase()
- }
-
- console.log(echo("Mom!"));
