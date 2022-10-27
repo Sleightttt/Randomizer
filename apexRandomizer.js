@@ -58,6 +58,18 @@ const Bloodhound = new Legend(
   "Enhances your senses, allowing you to move faster and highlighting your prey"
 )
 
+const Catalyst = new Legend (
+  "Catalyst",
+  "Defensive Legened",
+  "Barricade",
+  "Reinforce doors, strengthenin them and locking them to enemies. Spaces where doors have been desroyed can also be reinforced",
+  "Piercing Spikes",
+  "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes",
+  "Dark Veil",
+  "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time"
+
+)
+
 const Caustic = new Legend(
 "Caustic",
 "Nox Vision",
@@ -157,7 +169,81 @@ const Mirage = new Legend (
   "Deploy a team of Decoys to distract enemies"
 )
 
-const Octane = new Legend();
+const Octane = new Legend(
+  "Octane",
+  "Offensive Legend",
+  "Swift Mend",
+  "Automatically restores health over time",
+  "Stim",
+  "move 30% faster for six seconds. Costs health to use",
+  "Launch Pad",
+  "Deploy a jump pad that catapults teammates through the air"
+);
+
+const Pathfinder = new Legend(
+  "Pathfinder",
+  "Offensive Legened",
+  "Insider Knowledge",
+  "Scan a survey beacon to reveal the ring's next location and lower the cooldown of Zipline Gun",
+  "Grappling Hook",
+  "Grapple to get to out-of-reach places quickly",
+  "Zipline Gun",
+  "Create a zipline for everyone to use"
+);
+
+const Rampart = new Legend (
+  "Rampart",
+  "Defensive Legend",
+  "Modded Loader",
+  "Increased magazine capacity and faster relous when using LMGs and the Minigun",
+  "Amped Cover",
+  "Build a crouch-cover wall, which deplys a full0cover amped wall that blocks incoming shots and amps outgoing shots",
+  "Emplaced Minigun 'Shiela'",
+  "Place a mounted machine gun that anyone can use. High ammo capacity, long reload time"
+);
+
+const Revenant = new Legend (
+  "Revenant",
+  "Offensive Legend",
+  "Stalker",
+  "You crouch-walk faster and can climb higher than other Legends",
+  "Silence",
+  "Throw a device that deals damage and siables enemy abilities",
+  "Death Totem",
+  "Drop a totem that protects those who use it from death for a set amount of time. Instead of being killed or downed, users will return to the totem"
+)
+
+const Seer = new Legend (
+  "Seer",
+  "Offensive Legend",
+  "Heart Seeker",
+  "Hear and visualize the heartbeats of nearby enemies when aiming down sights",
+  "Focus of Attnetion",
+  "Seer summons his micro-drones to emit a delayed blast that goes through walls interrupting and revealing enemies",
+  "Exhibit",
+  "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within"
+)
+
+const Valkyrie = new Legend(
+  "Valkyrie",
+  "Offensive Legend",
+  "VTOL Jets",
+  "Use jetpack to fly. Fuel is limited but refills over time",
+  "Missile Swarm",
+  "Fire a swarm of mini-rockets that damage and disorient the enemy",
+  "Skyward Dive",
+  "Launch into the air and sky dive. Allies can hook into take-off system to join you"
+)
+
+const Vantage = new Legend(
+  "Vantage",
+  "Spotter's Lens",
+  "Aim down sights to scout with your eyepiece (unarmed or with mid-to long-range scopes) and use a bullet drop indicator to see where your shots will land",
+  "Echo Relocation",
+  "Position your winged compainion Echo and then launch towards him. Must have line of sight for Echo to launch",
+  "Sniper's Mark",
+  "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team"
+);
 
 const displayLegendInfo = function (legend) {
   document.querySelector(
@@ -297,3 +383,6 @@ const test2 = new TestClass('Jerry', 'dec12');
 const testArray = [test1, test2]
 let randomtest = Math.trunc(Math.random() * testArray.length)
 console.log(testArray[randomtest].testName);
+
+let testyArr = [[2, 3], [4, 5]];
+console.log([testyArr])
