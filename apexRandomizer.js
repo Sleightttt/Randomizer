@@ -25,6 +25,7 @@ class Legend {
   }
 }
 ///////////Champion info data
+///////Add icons in data somewhere
 const Ash = new Legend(
   "Ash",
   "Offensive Legend",
