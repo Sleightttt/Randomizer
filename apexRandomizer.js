@@ -57,9 +57,9 @@ const Bloodhound = new Legend(
   "Briefly reveal hidden enemies, traps, and clues throughout structures in front of you",
   "Beast of the Hunt",
   "Enhances your senses, allowing you to move faster and highlighting your prey"
-)
+);
 
-const Catalyst = new Legend (
+const Catalyst = new Legend(
   "Catalyst",
   "Defensive Legened",
   "Barricade",
@@ -68,18 +68,17 @@ const Catalyst = new Legend (
   "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes",
   "Dark Veil",
   "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time"
-
-)
+);
 
 const Caustic = new Legend(
-"Caustic",
-"Nox Vision",
-"Defensive Legend",
-"Allows you to see enemies through your gas",
-"Nox Gas Trap",
-"Drop canisters that release deadly Nox gas when shot or triggered by enemies",
-"Nos Gas Grenade",
-"Blankets a large area in Nox gas"
+  "Caustic",
+  "Nox Vision",
+  "Defensive Legend",
+  "Allows you to see enemies through your gas",
+  "Nox Gas Trap",
+  "Drop canisters that release deadly Nox gas when shot or triggered by enemies",
+  "Nos Gas Grenade",
+  "Blankets a large area in Nox gas"
 );
 
 const Crypto = new Legend(
@@ -91,18 +90,18 @@ const Crypto = new Legend(
   "Deploy an aeriel drone that allows you to view the surrounding area from above. If the drone is destroyed, there is a forty-second cooldown before you can deploy another",
   "Drone EMP",
   "Your Surveillance Drone sets off an EMP blast that deals shield damage, slows enemies, and disables traps"
-)
+);
 
 const Fuse = new Legend(
-"Fuse",
-"Offensive Legend",
-"Grenadier",
-"Stacks an extra grenade per inventory slot. Fire grenades farther, faster, and more accurately",
-"Knuckle Cluster",
-"Launch a cluster bomb that continously expels airburst explosives on impact",
-"The Motherlode",
-"Launch a bombardment that encircles a target area in a wall of flame"
-)
+  "Fuse",
+  "Offensive Legend",
+  "Grenadier",
+  "Stacks an extra grenade per inventory slot. Fire grenades farther, faster, and more accurately",
+  "Knuckle Cluster",
+  "Launch a cluster bomb that continously expels airburst explosives on impact",
+  "The Motherlode",
+  "Launch a bombardment that encircles a target area in a wall of flame"
+);
 
 const Gibralter = new Legend(
   "Gibralter",
@@ -113,9 +112,9 @@ const Gibralter = new Legend(
   "Throw down a dome shield that blocks attacks",
   "Defensive Bombardment",
   "Call in a concentrated mortar strike on a marked position"
-)
+);
 
-const Horizon = new Legend (
+const Horizon = new Legend(
   "Horizon",
   "Offensive Legend",
   "Spacewalk",
@@ -124,9 +123,9 @@ const Horizon = new Legend (
   "Reverses the flow of gravity, lifting players upwards and boosting them outwards when they exit",
   "Black Hole",
   "Deploy N.E.W.T. to create a micro black hole that pulls players towards it, and hits them with a graviton blast at the end"
-)
+);
 
-const Lifeline = new Legend (
+const Lifeline = new Legend(
   "Lifeline",
   "Support Legend",
   "Combat Medic",
@@ -135,7 +134,7 @@ const Lifeline = new Legend (
   "Call your Drone of Compassion to automatically heal nearby teammates over time",
   "Care Package",
   "Call in a drop pod full of high-quality defensive gear"
-)
+);
 
 const Loba = new Legend(
   "Loba",
@@ -146,7 +145,7 @@ const Loba = new Legend(
   "Teleport to hard-to-reach places or escape trouble quickly by throwing your Jump Drive bracelet",
   "Black Market Boutique",
   "Place a portable device that allows you to teleport neaby loot to your inventory. Each friendly or enemy Legend can take up to Two items"
-)
+);
 
 const Mad_Maggie = new Legend(
   "Mad Maggie",
@@ -157,9 +156,9 @@ const Mad_Maggie = new Legend(
   "Fire a drill that burns enemies through obstacles",
   "Wrecking Ball",
   "Throw a ball that releases speed-boosting pads and detonates near enemies"
-)
+);
 
-const Mirage = new Legend (
+const Mirage = new Legend(
   "Mirage",
   "Offensive Legend",
   "Now You See Me...",
@@ -168,7 +167,7 @@ const Mirage = new Legend (
   "Send out a holographic decoy to confuse the enemy",
   "Life of the Party",
   "Deploy a team of Decoys to distract enemies"
-)
+);
 
 const Octane = new Legend(
   "Octane",
@@ -192,7 +191,7 @@ const Pathfinder = new Legend(
   "Create a zipline for everyone to use"
 );
 
-const Rampart = new Legend (
+const Rampart = new Legend(
   "Rampart",
   "Defensive Legend",
   "Modded Loader",
@@ -203,7 +202,7 @@ const Rampart = new Legend (
   "Place a mounted machine gun that anyone can use. High ammo capacity, long reload time"
 );
 
-const Revenant = new Legend (
+const Revenant = new Legend(
   "Revenant",
   "Offensive Legend",
   "Stalker",
@@ -212,9 +211,9 @@ const Revenant = new Legend (
   "Throw a device that deals damage and siables enemy abilities",
   "Death Totem",
   "Drop a totem that protects those who use it from death for a set amount of time. Instead of being killed or downed, users will return to the totem"
-)
+);
 
-const Seer = new Legend (
+const Seer = new Legend(
   "Seer",
   "Offensive Legend",
   "Heart Seeker",
@@ -223,7 +222,7 @@ const Seer = new Legend (
   "Seer summons his micro-drones to emit a delayed blast that goes through walls interrupting and revealing enemies",
   "Exhibit",
   "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within"
-)
+);
 
 const Valkyrie = new Legend(
   "Valkyrie",
@@ -234,7 +233,7 @@ const Valkyrie = new Legend(
   "Fire a swarm of mini-rockets that damage and disorient the enemy",
   "Skyward Dive",
   "Launch into the air and sky dive. Allies can hook into take-off system to join you"
-)
+);
 
 const Vantage = new Legend(
   "Vantage",
@@ -245,17 +244,28 @@ const Vantage = new Legend(
   "Sniper's Mark",
   "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team"
 );
-
-const displayLegendInfo = function (legend) {
-  document.querySelector(
-    ".Imagetext"
-  ).textContent = `'You rolled ${legend}! ${this.legendName} is a ${this.legendClass} legend.
-     ${this.legendName}'s passive ability is ${this.passiveName}. ${this.passiveInfo}
-     ${this.legendName}'s tactical ability is ${this.tacticalName}. ${this.tacticalInfo}
-     ${this.legendName}'s ultimate ability is ${this.ultimateName}. ${this.ultimateInfo}
-      `;
-
-};
+const legendsArr = [
+  Ash,
+  Bangalore,
+  Bloodhound,
+  Catalyst,
+  Caustic,
+  Crypto,
+  Fuse,
+  Gibralter,
+  Horizon,
+  Lifeline,
+  Loba,
+  Mad_Maggie,
+  Mirage,
+  Octane,
+  Pathfinder,
+  Rampart,
+  Revenant,
+  Seer,
+  Valkyrie,
+  Vantage,
+];
 
 const legends = [
   "Ash",
@@ -279,7 +289,7 @@ const legends = [
   "Mad Maggie",
   "Newcastle",
   "Vantage",
-  "Catalyst"
+  "Catalyst",
 ];
 
 //Array of reroll button strings
@@ -352,6 +362,7 @@ const roll = document
     document.querySelector(
       ".message"
     ).textContent = `Your legend is ${legend}!`;
+
     document.querySelector(".randomizer").textContent = `${randomRerollString}`;
 
     if (timer) clearInterval(timer);
@@ -371,133 +382,21 @@ const roll = document
 //Make a dropdown of legends to omit from randomizer
 //Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
 //Example: ${legend} is a ${legend.offenseDefense} who excels at xxxx. ${legend.passive} is xxxxx. ${legend.tactical} is xxxxxx. ${legend.Ultimate} is xxxxx
-class TestClass{
-  constructor(testName, testDate){
+class TestClass {
+  constructor(testName, testDate) {
     this.testName = testName;
     this.testDate = testDate;
   }
 }
-const test1 = new TestClass('bob', 'oct12');
-const test2 = new TestClass('Jerry', 'dec12');
+const test1 = new TestClass("bob", "oct12");
+const test2 = new TestClass("Jerry", "dec12");
 
-
-const testArray = [test1, test2]
-let randomtest = Math.trunc(Math.random() * testArray.length)
+const testArray = [test1, test2];
+let randomtest = Math.trunc(Math.random() * testArray.length);
 console.log(testArray[randomtest].testName);
 
-let testyArr = [[2, 3], [4, 5]];
-console.log([testyArr])
-
-
-/////////////////////////////////////////////////////
-
-
-// butter: $1
-// eggs: $2
-// milk: $3
-// bread: $4
-// cheese: $5
-
-
-function costOfGroceries(groceries) {
-  let cost = 0
-    for(let i = 0; i < groceries.length; i++){
-    let currentItem = groceries[i]
-    if(currentItem === 'butter'){
-    cost += 1
-    }
-      else if (currentItem === 'eggs'){
-      cost += 2
-      }
-      else if (currentItem === 'milk'){
-      cost += 3
-      }
-      else if (currentItem === 'bread'){
-      cost += 4
-      }
-      else if(currentItem === 'cheese'){
-      cost += 5
-      }
-    }
-  return cost
-}
-
-
-function mostExpensiveGroceries(groceriesList) {
-  //loop through first array
-  //declare holder of most exp array's index
- let answer;
- let highestVal = 0
-
-  //loopinng through first array
-    for(let i = 0; i < groceriesList.length; i++){
-      //making the sub array the index of list
-
-     let subArr = groceriesList[i]
-
-     for(let j = 0; j < 1; j++ ){
-
-     if(costOfGroceries(subArr) > highestVal){
-     highestVal = costOfGroceries(subArr)
-      answer = i
-      console.log(i)
-     }
-     }
-
-    }
-  return answer
-}
-
-
-// TESTS
-// DO NOT MODIFY ANYTHING BELOW THIS LINE
-
-const groceriesA = ['cheese', 'butter', 'eggs'];
-const groceriesB = ['eggs', 'milk', 'bread', 'bread'];
-const groceriesC = ['cheese', 'bread'];
-const groceriesD = ['eggs', 'butter'];
-
-costOfGroceries(groceriesA);  // 8
-costOfGroceries(groceriesB);  // 13
-costOfGroceries(groceriesC);  // 9
-costOfGroceries(groceriesD);  // 3
-
-mostExpensiveGroceries([groceriesA, groceriesB, groceriesC, groceriesD]);
-
-let score = 0;
-
-if (costOfGroceries(groceriesA) === 8) score++;
-if (costOfGroceries(groceriesB) === 13) score++;
-if (costOfGroceries(groceriesC) === 9) score++;
-if (costOfGroceries(groceriesD) === 3) score++;
-
-if (mostExpensiveGroceries([groceriesA, groceriesB, groceriesC, groceriesD]) === 1) score++;
-if (mostExpensiveGroceries([groceriesA, groceriesD]) === 0) score++;
-if (mostExpensiveGroceries([groceriesA, groceriesD, groceriesC]) === 2) score++;
-
-console.log("You have scored " + score + "/7 points.");
-
-
-
-function isSorted(nums) {
-
-  // Loop through each number
-  for (let i = 0 ; i < nums.length ; i++) {
-
-      // Check if the current number is less than
-      // the previous number
-      if (nums[i-1] > nums[i]) {
-          // If it's not, return false
-          return console.log(false);
-      }
-  }
-
-  // If every number is greater or equal to the previous number
-  // in the array, it's sorted.
-  return console.log(true);
-
-}
-
-isSorted([1, 2, 3, 4, 5])  // true
-isSorted([2, 2, 4, 4])  // true
-isSorted([1, 2, 4, 3, 5, 6])  // false
+let testyArr = [
+  [2, 3],
+  [4, 5],
+];
+console.log([testyArr]);

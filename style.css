@@ -40,7 +40,7 @@ body {
   color: black;
 }
 
-.topnav a.active {
+.topnav a.active  {
   background-color: #000000;
   color: rgb(255, 255, 255);
   border-bottom: 5px solid #ffffff;
@@ -97,8 +97,6 @@ button {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
   z-index: 1;
-  text-decoration:  solid underline white 1px
-
 }
 
 .randomizer {
@@ -116,4 +114,15 @@ button {
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.legendPicture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
 }
