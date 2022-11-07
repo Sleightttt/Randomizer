@@ -12,7 +12,8 @@ class Legend {
     tacticalName,
     tacticalInfo,
     ultimateName,
-    ultimateInfo
+    ultimateInfo,
+    imageSrc
   ) {
     this.legendName = legendName;
     this.legendClass = legendClass;
@@ -22,6 +23,7 @@ class Legend {
     this.tacticalInfo = tacticalInfo;
     this.ultimateName = ultimateName;
     this.ultimateInfo = ultimateInfo;
+    this.imageSrc = imageSrc;
   }
 }
 ///////////Champion info data
@@ -34,7 +36,8 @@ const Ash = new Legend(
   "Arc Snare",
   "Throws a device that deals damage and temporarily snares enemies",
   "Phase Breach",
-  "Opens a linear one-way portal between two locations"
+  "Opens a linear one-way portal between two locations",
+  "Images/Ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg"
 );
 
 const Bangalore = new Legend(
@@ -169,6 +172,17 @@ const Mirage = new Legend(
   "Deploy a team of Decoys to distract enemies"
 );
 
+const Newcastle = new Legend(
+  "Newcastle",
+  "Defensive Legend",
+  "Retrieve the Wounded",
+  "Drag downed allies as you revive and protect them with your Revive Shield",
+  "Mobile Shield",
+  "Throw a controllable drone that creates a moving energy shield",
+  "Castle Wall",
+  "Leap to an ally or target area and slam down, creating a fortified stronghold"
+);
+
 const Octane = new Legend(
   "Octane",
   "Offensive Legend",
@@ -237,12 +251,35 @@ const Valkyrie = new Legend(
 
 const Vantage = new Legend(
   "Vantage",
+  "Offensive Legend",
   "Spotter's Lens",
   "Aim down sights to scout with your eyepiece (unarmed or with mid-to long-range scopes) and use a bullet drop indicator to see where your shots will land",
   "Echo Relocation",
   "Position your winged compainion Echo and then launch towards him. Must have line of sight for Echo to launch",
   "Sniper's Mark",
   "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team"
+);
+
+const Wattson = new Legend(
+  "Wattson",
+  "Defensive Legend",
+  "Spark of Genius",
+  "Ultimate Accelerants fully charge your Ultimate Ability",
+  "Perimeter Security",
+  "Connect nodes to create electrified fences that damage and slow enemies",
+  "Interception Pylon",
+  "Place an electrified pylon that destroys incoming ordnance and repairs damaged shields"
+);
+
+const Wraith = new Legend(
+  "Wraith",
+  "Offensive Legend",
+  "Voices from the Void",
+  "A voice warns you when danger approaches. As far as you can tell, it's on your side",
+  "Into the Void",
+  "reposition quickly through the safety of void space, avoiding all damage",
+  "Dimensional Rift",
+  "Link two locations with portals for 60 seconds, allowing your entire team to use them"
 );
 const legendsArr = [
   Ash,
@@ -258,6 +295,7 @@ const legendsArr = [
   Loba,
   Mad_Maggie,
   Mirage,
+  Newcastle,
   Octane,
   Pathfinder,
   Rampart,
@@ -265,12 +303,15 @@ const legendsArr = [
   Seer,
   Valkyrie,
   Vantage,
+  Wattson,
+  Wraith,
 ];
 
 const legends = [
   "Ash",
   "Bangalore",
   "Bloodhound",
+  "Catalyst",
   "Caustic",
   "Crypto",
   "Fuse",
@@ -278,18 +319,18 @@ const legends = [
   "Horizon",
   "Lifeline",
   "Loba",
+  "Mad Maggie",
   "Mirage",
+  "Newcastle",
   "Octane",
   "Pathfinder",
   "Rampart",
   "Revenant",
   "Seer",
   "Valkyrie",
-  "Wattson",
-  "Mad Maggie",
-  "Newcastle",
   "Vantage",
-  "Catalyst",
+  "Wattson",
+  "Wraith",
 ];
 
 //Array of reroll button strings
@@ -358,12 +399,43 @@ const roll = document
     let randomRerollString = again[Math.floor(Math.random() * again.length)];
     let legendNumber = Math.trunc(Math.random() * legends.length);
     let legend = legends[legendNumber];
-
+    let classLeg = legendsArr[legendNumber];
     document.querySelector(
       ".message"
     ).textContent = `Your legend is ${legend}!`;
 
     document.querySelector(".randomizer").textContent = `${randomRerollString}`;
+
+    document.querySelector(
+      ".legend-type"
+    ).textContent = `: ${classLeg.legendClass}`;
+
+    document.querySelector(
+      ".passive-name"
+    ).textContent = `: ${classLeg.passiveName}`;
+
+    document.querySelector(
+      ".passive-desc"
+    ).textContent = `: ${classLeg.passiveInfo}`;
+
+    document.querySelector(
+      ".tac-name"
+    ).textContent = `: ${classLeg.tacticalName}`;
+
+    document.querySelector(
+      ".tac-desc"
+    ).textContent = `: ${classLeg.tacticalInfo}`;
+
+    document.querySelector(
+      ".ult-name"
+    ).textContent = `: ${classLeg.ultimateName}`;
+
+    document.querySelector(
+      ".ult-desc"
+    ).textContent = `: ${classLeg.ultimateInfo}`;
+
+    document.getElementsByClassName(".legendImg").src = `${classLeg.imageSrc}`;
+    console.log(document.getElementsByClassName(".legendImg").src);
 
     if (timer) clearInterval(timer);
     timer = startTimer();
