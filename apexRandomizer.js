@@ -434,8 +434,7 @@ const roll = document
       ".ult-desc"
     ).textContent = `: ${classLeg.ultimateInfo}`;
 
-    document.getElementsByClassName(".legendImg").src = `${classLeg.imageSrc}`;
-    console.log(document.getElementsByClassName(".legendImg").src);
+    document.getElementById("legendPic").src = `${classLeg.imageSrc}`; //this changes the picture of champion
 
     if (timer) clearInterval(timer);
     timer = startTimer();
