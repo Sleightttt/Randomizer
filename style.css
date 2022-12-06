@@ -6,7 +6,8 @@
 
 article {
   background-image: url(/Images/apex_legends_logo.jpg);
-  height: 60em;
+  height: 1500px;
+  margin-bottom: 40px;
 }
 
 body {
@@ -118,11 +119,28 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  height: 300px;
+  width: 300px;
+}
+.legendImg {
+  height: 300px;
+  width: 300px;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(auto, auto);
+}
+
+.infoContainer {
+  height: 500px;
+}
+
+.buttonContainer {
+  padding: auto;
+  margin: 20px;
+  height: 40px;
+  width: 40px;
 }

@@ -48,7 +48,8 @@ const Bangalore = new Legend(
   "Smoke Launcher",
   "Fires a high-velocity smoke canister that explodes into a smoke wall on impact",
   "Rolling Thunder",
-  "Call in an artillery strike that slowly creeps across the landscape"
+  "Call in an artillery strike that slowly creeps across the landscape",
+  "Images/Bangalore/Bangalore-apex-randomizer.webp"
 );
 
 const Bloodhound = new Legend(
@@ -59,7 +60,8 @@ const Bloodhound = new Legend(
   "Eye of the Allfather",
   "Briefly reveal hidden enemies, traps, and clues throughout structures in front of you",
   "Beast of the Hunt",
-  "Enhances your senses, allowing you to move faster and highlighting your prey"
+  "Enhances your senses, allowing you to move faster and highlighting your prey",
+  "Images/Bloodhound/Bloodhound-apex-randomizer.webp"
 );
 
 const Catalyst = new Legend(
@@ -70,7 +72,8 @@ const Catalyst = new Legend(
   "Piercing Spikes",
   "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes",
   "Dark Veil",
-  "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time"
+  "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time",
+  "Images/Catalyst/catalyst-apex-randomizer.webp"
 );
 
 const Caustic = new Legend(
@@ -81,7 +84,8 @@ const Caustic = new Legend(
   "Nox Gas Trap",
   "Drop canisters that release deadly Nox gas when shot or triggered by enemies",
   "Nos Gas Grenade",
-  "Blankets a large area in Nox gas"
+  "Blankets a large area in Nox gas",
+  "Images/Caustic/CausticImages:Wraith:Wraith-apex-randomizer.webp"
 );
 
 const Crypto = new Legend(
@@ -92,7 +96,8 @@ const Crypto = new Legend(
   "Surveillance Drone",
   "Deploy an aeriel drone that allows you to view the surrounding area from above. If the drone is destroyed, there is a forty-second cooldown before you can deploy another",
   "Drone EMP",
-  "Your Surveillance Drone sets off an EMP blast that deals shield damage, slows enemies, and disables traps"
+  "Your Surveillance Drone sets off an EMP blast that deals shield damage, slows enemies, and disables traps",
+  "Images/Crypto/Crypto-apex-randomizer.webp"
 );
 
 const Fuse = new Legend(
@@ -103,7 +108,8 @@ const Fuse = new Legend(
   "Knuckle Cluster",
   "Launch a cluster bomb that continously expels airburst explosives on impact",
   "The Motherlode",
-  "Launch a bombardment that encircles a target area in a wall of flame"
+  "Launch a bombardment that encircles a target area in a wall of flame",
+  "Images/Fuse/Fuse-apex-randomizer.webp"
 );
 
 const Gibralter = new Legend(
@@ -114,7 +120,8 @@ const Gibralter = new Legend(
   "Dome of Protection",
   "Throw down a dome shield that blocks attacks",
   "Defensive Bombardment",
-  "Call in a concentrated mortar strike on a marked position"
+  "Call in a concentrated mortar strike on a marked position",
+  "Images/Gibralter/Gibraltar-apex-randomizer.webp"
 );
 
 const Horizon = new Legend(
@@ -125,7 +132,8 @@ const Horizon = new Legend(
   "Gravity Lift",
   "Reverses the flow of gravity, lifting players upwards and boosting them outwards when they exit",
   "Black Hole",
-  "Deploy N.E.W.T. to create a micro black hole that pulls players towards it, and hits them with a graviton blast at the end"
+  "Deploy N.E.W.T. to create a micro black hole that pulls players towards it, and hits them with a graviton blast at the end",
+  "Images/Horizon/Horizon-apex-randomizer.webp"
 );
 
 const Lifeline = new Legend(
@@ -136,7 +144,8 @@ const Lifeline = new Legend(
   "D.O.C. Heal Drone",
   "Call your Drone of Compassion to automatically heal nearby teammates over time",
   "Care Package",
-  "Call in a drop pod full of high-quality defensive gear"
+  "Call in a drop pod full of high-quality defensive gear",
+  "Images/Lifeline/Lifeline-apex-randomizer.webp"
 );
 
 const Loba = new Legend(
@@ -147,7 +156,8 @@ const Loba = new Legend(
   "Burglar's Best Friend",
   "Teleport to hard-to-reach places or escape trouble quickly by throwing your Jump Drive bracelet",
   "Black Market Boutique",
-  "Place a portable device that allows you to teleport neaby loot to your inventory. Each friendly or enemy Legend can take up to Two items"
+  "Place a portable device that allows you to teleport neaby loot to your inventory. Each friendly or enemy Legend can take up to Two items",
+  "Images/Loba/Loba-apex-randomizer.webp"
 );
 
 const Mad_Maggie = new Legend(
@@ -158,7 +168,8 @@ const Mad_Maggie = new Legend(
   "Riot Drill",
   "Fire a drill that burns enemies through obstacles",
   "Wrecking Ball",
-  "Throw a ball that releases speed-boosting pads and detonates near enemies"
+  "Throw a ball that releases speed-boosting pads and detonates near enemies",
+  "Images/Mad_Maggie/Mad_Maggie-apex-randomizer.webp"
 );
 
 const Mirage = new Legend(
@@ -169,7 +180,8 @@ const Mirage = new Legend(
   "Psyche Out",
   "Send out a holographic decoy to confuse the enemy",
   "Life of the Party",
-  "Deploy a team of Decoys to distract enemies"
+  "Deploy a team of Decoys to distract enemies",
+  "Images/Mirage/Mirage-apex-randomizer.webp"
 );
 
 const Newcastle = new Legend(
@@ -180,7 +192,8 @@ const Newcastle = new Legend(
   "Mobile Shield",
   "Throw a controllable drone that creates a moving energy shield",
   "Castle Wall",
-  "Leap to an ally or target area and slam down, creating a fortified stronghold"
+  "Leap to an ally or target area and slam down, creating a fortified stronghold",
+  "Images/Newcastle/Newcastle-apex-randomizer.webp"
 );
 
 const Octane = new Legend(
@@ -191,7 +204,8 @@ const Octane = new Legend(
   "Stim",
   "move 30% faster for six seconds. Costs health to use",
   "Launch Pad",
-  "Deploy a jump pad that catapults teammates through the air"
+  "Deploy a jump pad that catapults teammates through the air",
+  "Images/Octane/Octane-apex-randomizer.webp"
 );
 
 const Pathfinder = new Legend(
@@ -202,7 +216,8 @@ const Pathfinder = new Legend(
   "Grappling Hook",
   "Grapple to get to out-of-reach places quickly",
   "Zipline Gun",
-  "Create a zipline for everyone to use"
+  "Create a zipline for everyone to use",
+  "Images/Pathfinder/Pathfinder-apex-randomizer.webp"
 );
 
 const Rampart = new Legend(
@@ -213,7 +228,8 @@ const Rampart = new Legend(
   "Amped Cover",
   "Build a crouch-cover wall, which deplys a full0cover amped wall that blocks incoming shots and amps outgoing shots",
   "Emplaced Minigun 'Shiela'",
-  "Place a mounted machine gun that anyone can use. High ammo capacity, long reload time"
+  "Place a mounted machine gun that anyone can use. High ammo capacity, long reload time",
+  "Images/Rampart/Rampart-apex-randomizer.webp"
 );
 
 const Revenant = new Legend(
@@ -224,7 +240,8 @@ const Revenant = new Legend(
   "Silence",
   "Throw a device that deals damage and siables enemy abilities",
   "Death Totem",
-  "Drop a totem that protects those who use it from death for a set amount of time. Instead of being killed or downed, users will return to the totem"
+  "Drop a totem that protects those who use it from death for a set amount of time. Instead of being killed or downed, users will return to the totem",
+  "Images/Revenant/Revenant-apex-randomizer.webp"
 );
 
 const Seer = new Legend(
@@ -235,7 +252,8 @@ const Seer = new Legend(
   "Focus of Attnetion",
   "Seer summons his micro-drones to emit a delayed blast that goes through walls interrupting and revealing enemies",
   "Exhibit",
-  "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within"
+  "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within",
+  "Images/Seer/Seer-apex-randomizer.webp"
 );
 
 const Valkyrie = new Legend(
@@ -246,7 +264,8 @@ const Valkyrie = new Legend(
   "Missile Swarm",
   "Fire a swarm of mini-rockets that damage and disorient the enemy",
   "Skyward Dive",
-  "Launch into the air and sky dive. Allies can hook into take-off system to join you"
+  "Launch into the air and sky dive. Allies can hook into take-off system to join you",
+  "Images/Valkyrie/Valkyrie-apex-randomizer.webp"
 );
 
 const Vantage = new Legend(
@@ -257,7 +276,8 @@ const Vantage = new Legend(
   "Echo Relocation",
   "Position your winged compainion Echo and then launch towards him. Must have line of sight for Echo to launch",
   "Sniper's Mark",
-  "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team"
+  "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team",
+  "Images/Vantage/Vantage-apex-randomizer.webp"
 );
 
 const Wattson = new Legend(
@@ -268,7 +288,8 @@ const Wattson = new Legend(
   "Perimeter Security",
   "Connect nodes to create electrified fences that damage and slow enemies",
   "Interception Pylon",
-  "Place an electrified pylon that destroys incoming ordnance and repairs damaged shields"
+  "Place an electrified pylon that destroys incoming ordnance and repairs damaged shields",
+  "Images/Wattson/Wattson-apex-randomizer.webp"
 );
 
 const Wraith = new Legend(
@@ -279,7 +300,8 @@ const Wraith = new Legend(
   "Into the Void",
   "reposition quickly through the safety of void space, avoiding all damage",
   "Dimensional Rift",
-  "Link two locations with portals for 60 seconds, allowing your entire team to use them"
+  "Link two locations with portals for 60 seconds, allowing your entire team to use them",
+  "Images/Wraith/Wraith-apex-randomizer.webp"
 );
 const legendsArr = [
   Ash,
@@ -371,6 +393,7 @@ dateTimeLabel.textContent = `Started randomizing on ${new Intl.DateTimeFormat(
 
 //Random roll on button click + champion message update
 
+//Begin tracking time
 const startTimer = function () {
   const tick = function () {
     const min = String(Math.trunc(time / 60)).padStart(2, 0);
@@ -447,27 +470,28 @@ const roll = document
     rolls.forEach(function (x) {
       counts[x] = (counts[x] || 0) + 1;
     });
+
     youHaveRolled.textContent = `You have rolled ${legend} ${counts[legend]} times`;
   });
 
 //Make a dropdown of legends to omit from randomizer
 //Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
 //Example: ${legend} is a ${legend.offenseDefense} who excels at xxxx. ${legend.passive} is xxxxx. ${legend.tactical} is xxxxxx. ${legend.Ultimate} is xxxxx
-class TestClass {
-  constructor(testName, testDate) {
-    this.testName = testName;
-    this.testDate = testDate;
-  }
-}
-const test1 = new TestClass("bob", "oct12");
-const test2 = new TestClass("Jerry", "dec12");
+// class TestClass {
+//   constructor(testName, testDate) {
+//     this.testName = testName;
+//     this.testDate = testDate;
+//   }
+// }
+// const test1 = new TestClass("bob", "oct12");
+// const test2 = new TestClass("Jerry", "dec12");
 
-const testArray = [test1, test2];
-let randomtest = Math.trunc(Math.random() * testArray.length);
-console.log(testArray[randomtest].testName);
+// const testArray = [test1, test2];
+// let randomtest = Math.trunc(Math.random() * testArray.length);
+// console.log(testArray[randomtest].testName);
 
-let testyArr = [
-  [2, 3],
-  [4, 5],
-];
-console.log([testyArr]);
+// let testyArr = [
+//   [2, 3],
+//   [4, 5],
+// ];
+// console.log([testyArr]);
