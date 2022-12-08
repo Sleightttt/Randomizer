@@ -78,8 +78,8 @@ const Catalyst = new Legend(
 
 const Caustic = new Legend(
   "Caustic",
-  "Nox Vision",
   "Defensive Legend",
+  "Nox Vision",
   "Allows you to see enemies through your gas",
   "Nox Gas Trap",
   "Drop canisters that release deadly Nox gas when shot or triggered by enemies",
@@ -92,7 +92,7 @@ const Crypto = new Legend(
   "Crypto",
   "Support Legend",
   "Nuerolink",
-  "enemies detected by the Surveillance Drone within 30 meters of your position are marked for you and your teamates to see",
+  "Enemies detected by the Surveillance Drone within 30 meters of your position are marked for you and your teamates to see",
   "Surveillance Drone",
   "Deploy an aeriel drone that allows you to view the surrounding area from above. If the drone is destroyed, there is a forty-second cooldown before you can deploy another",
   "Drone EMP",
@@ -202,7 +202,7 @@ const Octane = new Legend(
   "Swift Mend",
   "Automatically restores health over time",
   "Stim",
-  "move 30% faster for six seconds. Costs health to use",
+  "Move 30% faster for six seconds. Costs health to use",
   "Launch Pad",
   "Deploy a jump pad that catapults teammates through the air",
   "Images/Octane/Octane-apex-randomizer.webp"
@@ -431,31 +431,31 @@ const roll = document
 
     document.querySelector(
       ".legend-type"
-    ).textContent = `: ${classLeg.legendClass}`;
+    ).textContent = ` ${classLeg.legendClass}`;
 
     document.querySelector(
       ".passive-name"
-    ).textContent = `: ${classLeg.passiveName}`;
+    ).textContent = ` ${classLeg.passiveName}`;
 
     document.querySelector(
       ".passive-desc"
-    ).textContent = `: ${classLeg.passiveInfo}`;
+    ).textContent = ` ${classLeg.passiveInfo}`;
 
     document.querySelector(
       ".tac-name"
-    ).textContent = `: ${classLeg.tacticalName}`;
+    ).textContent = ` ${classLeg.tacticalName}`;
 
     document.querySelector(
       ".tac-desc"
-    ).textContent = `: ${classLeg.tacticalInfo}`;
+    ).textContent = ` ${classLeg.tacticalInfo}`;
 
     document.querySelector(
       ".ult-name"
-    ).textContent = `: ${classLeg.ultimateName}`;
+    ).textContent = ` ${classLeg.ultimateName}`;
 
     document.querySelector(
       ".ult-desc"
-    ).textContent = `: ${classLeg.ultimateInfo}`;
+    ).textContent = ` ${classLeg.ultimateInfo}`;
 
     document.getElementById("legendPic").src = `${classLeg.imageSrc}`; //this changes the picture of champion
 

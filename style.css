@@ -45,6 +45,10 @@ body {
   color: rgb(255, 255, 255);
   border-bottom: 5px solid #ffffff;
 }
+.topnav a.active:hover {
+  background-color: white;
+  color: black;
+}
 
 .topnav a.getGame {
   float: right;
@@ -129,13 +133,26 @@ button {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(auto, auto);
+  height: 400px;
+  grid-template-columns: 1fr 3fr;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "passivename passiveinfo"
+    "tacname tacinfo"
+    "ultname ultinfo"
+    "extrainfo extrainfo";
+  /* grid-template-rows: repeat(4, 1fr); */
+  margin: 1px 15%;
+  background-image: url(Images/apex-section-bg-legends-catalyst-abilities-xl.jpg.adapt.1456w.jpg);
+  border: solid rgb(91, 91, 91);
+}
+.grid-container > div {
+  border: solid rgb(91, 91, 91);
 }
 
 .infoContainer {
-  height: 500px;
+  height: 300px;
 }
 
 .buttonContainer {
@@ -143,4 +160,42 @@ button {
   margin: 20px;
   height: 40px;
   width: 40px;
+}
+.passive-name {
+  display: flex;
+  grid-area: passivename;
+
+  color: white;
+  justify-content: center;
+}
+.passive-desc {
+  grid-area: passiveinfo;
+  color: white;
+}
+.tac-name {
+  display: flex;
+  grid-area: tacname;
+  justify-content: center;
+  color: white;
+}
+.tac-desc {
+  grid-area: tacinfo;
+  color: white;
+}
+.ult-name {
+  display: flex;
+  grid-area: ultname;
+  justify-content: center;
+  color: white;
+}
+.ult-desc {
+  grid-area: ultinfo;
+  color: white;
+}
+.legend-type {
+  grid-area: extrainfo;
+}
+.extra-info {
+  grid-area: extrainfo;
+  display: none;
 }
