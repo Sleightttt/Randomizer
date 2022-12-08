@@ -13,7 +13,10 @@ class Legend {
     tacticalInfo,
     ultimateName,
     ultimateInfo,
-    imageSrc
+    imageSrc,
+    pasImg,
+    tacImg,
+    ultImg
   ) {
     this.legendName = legendName;
     this.legendClass = legendClass;
@@ -24,6 +27,9 @@ class Legend {
     this.ultimateName = ultimateName;
     this.ultimateInfo = ultimateInfo;
     this.imageSrc = imageSrc;
+    this.pasImg = pasImg;
+    this.tacImg = tacImg;
+    this.ultImg = ultImg;
   }
 }
 ///////////Champion info data
@@ -37,7 +43,10 @@ const Ash = new Legend(
   "Throws a device that deals damage and temporarily snares enemies",
   "Phase Breach",
   "Opens a linear one-way portal between two locations",
-  "Images/Ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg"
+  "Images/Ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg",
+  "Images/Ash/Ash-pas.png",
+  "Images/Ash/Ash-tac.png",
+  "Images/Ash/Ash-ult.png"
 );
 
 const Bangalore = new Legend(
@@ -49,7 +58,10 @@ const Bangalore = new Legend(
   "Fires a high-velocity smoke canister that explodes into a smoke wall on impact",
   "Rolling Thunder",
   "Call in an artillery strike that slowly creeps across the landscape",
-  "Images/Bangalore/Bangalore-apex-randomizer.webp"
+  "Images/Bangalore/Bangalore-apex-randomizer.webp",
+  "Images/Bangalore/Bangalore-pas.png",
+  "Images/Bangalore/Bangalore-tac.png",
+  "Images/Bangalore/Bangalore-ult.png"
 );
 
 const Bloodhound = new Legend(
@@ -61,7 +73,10 @@ const Bloodhound = new Legend(
   "Briefly reveal hidden enemies, traps, and clues throughout structures in front of you",
   "Beast of the Hunt",
   "Enhances your senses, allowing you to move faster and highlighting your prey",
-  "Images/Bloodhound/Bloodhound-apex-randomizer.webp"
+  "Images/Bloodhound/Bloodhound-apex-randomizer.webp",
+  "Images/Bloodhound/Bloodhound-pas.png",
+  "Images/Bloodhound/Bloodhound-tac.png",
+  "Images/Bloodhound/Bloodhound-ult.png"
 );
 
 const Catalyst = new Legend(
@@ -73,7 +88,10 @@ const Catalyst = new Legend(
   "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes",
   "Dark Veil",
   "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time",
-  "Images/Catalyst/catalyst-apex-randomizer.webp"
+  "Images/Catalyst/catalyst-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/catalyst/apex-grid-tile-legends-abilities-passive-catalyst.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/catalyst/apex-grid-tile-legends-abilities-tactical-catalyst.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/catalyst/apex-grid-tile-legends-abilities-ultimate-catalyst.png.adapt.crop16x9.652w.png"
 );
 
 const Caustic = new Legend(
@@ -85,7 +103,10 @@ const Caustic = new Legend(
   "Drop canisters that release deadly Nox gas when shot or triggered by enemies",
   "Nos Gas Grenade",
   "Blankets a large area in Nox gas",
-  "Images/Caustic/CausticImages:Wraith:Wraith-apex-randomizer.webp"
+  "Images/Caustic/CausticImages:Wraith:Wraith-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-caustic.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-caustic.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-caustic.png.adapt.crop16x9.652w.png"
 );
 
 const Crypto = new Legend(
@@ -97,7 +118,10 @@ const Crypto = new Legend(
   "Deploy an aeriel drone that allows you to view the surrounding area from above. If the drone is destroyed, there is a forty-second cooldown before you can deploy another",
   "Drone EMP",
   "Your Surveillance Drone sets off an EMP blast that deals shield damage, slows enemies, and disables traps",
-  "Images/Crypto/Crypto-apex-randomizer.webp"
+  "Images/Crypto/Crypto-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-crypto.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-crypto.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-crypto.png.adapt.crop16x9.652w.png"
 );
 
 const Fuse = new Legend(
@@ -109,7 +133,10 @@ const Fuse = new Legend(
   "Launch a cluster bomb that continously expels airburst explosives on impact",
   "The Motherlode",
   "Launch a bombardment that encircles a target area in a wall of flame",
-  "Images/Fuse/Fuse-apex-randomizer.webp"
+  "Images/Fuse/Fuse-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-grid-tile-legends-abilities-passive-fuse.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-grid-tile-legends-abilities-tactical-fuse.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-grid-tile-legends-abilities-ultimate-fuse.png.adapt.crop16x9.652w.png"
 );
 
 const Gibralter = new Legend(
@@ -121,7 +148,10 @@ const Gibralter = new Legend(
   "Throw down a dome shield that blocks attacks",
   "Defensive Bombardment",
   "Call in a concentrated mortar strike on a marked position",
-  "Images/Gibralter/Gibraltar-apex-randomizer.webp"
+  "Images/Gibralter/Gibraltar-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-gibraltar.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-gibraltar.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-gibraltar.png.adapt.crop16x9.652w.png"
 );
 
 const Horizon = new Legend(
@@ -133,7 +163,10 @@ const Horizon = new Legend(
   "Reverses the flow of gravity, lifting players upwards and boosting them outwards when they exit",
   "Black Hole",
   "Deploy N.E.W.T. to create a micro black hole that pulls players towards it, and hits them with a graviton blast at the end",
-  "Images/Horizon/Horizon-apex-randomizer.webp"
+  "Images/Horizon/Horizon-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/10/horizon/apex-grid-tile-legends-abilities-passive-horizon.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/10/horizon/apex-grid-tile-legends-abilities-tactical-horizon.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/10/horizon/apex-grid-tile-legends-abilities-ultimate-horizon.png.adapt.crop16x9.652w.png"
 );
 
 const Lifeline = new Legend(
@@ -145,7 +178,10 @@ const Lifeline = new Legend(
   "Call your Drone of Compassion to automatically heal nearby teammates over time",
   "Care Package",
   "Call in a drop pod full of high-quality defensive gear",
-  "Images/Lifeline/Lifeline-apex-randomizer.webp"
+  "Images/Lifeline/Lifeline-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-lifeline.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-lifeline.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-lifeline.png.adapt.crop16x9.652w.png"
 );
 
 const Loba = new Legend(
@@ -157,7 +193,10 @@ const Loba = new Legend(
   "Teleport to hard-to-reach places or escape trouble quickly by throwing your Jump Drive bracelet",
   "Black Market Boutique",
   "Place a portable device that allows you to teleport neaby loot to your inventory. Each friendly or enemy Legend can take up to Two items",
-  "Images/Loba/Loba-apex-randomizer.webp"
+  "Images/Loba/Loba-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/05/apex-grid-tile-legends-abilities-passive-loba.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/05/apex-grid-tile-legends-abilities-tactical-loba.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/05/apex-grid-tile-legends-abilities-ultimate-loba.png.adapt.crop16x9.652w.png"
 );
 
 const Mad_Maggie = new Legend(
@@ -169,7 +208,10 @@ const Mad_Maggie = new Legend(
   "Fire a drill that burns enemies through obstacles",
   "Wrecking Ball",
   "Throw a ball that releases speed-boosting pads and detonates near enemies",
-  "Images/Mad_Maggie/Mad_Maggie-apex-randomizer.webp"
+  "Images/Mad_Maggie/Mad_Maggie-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/mad-maggie/apex-grid-tile-legends-abilities-passive-maggie.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/mad-maggie/apex-grid-tile-legends-abilities-tactical-maggie.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/mad-maggie/apex-grid-tile-legends-abilities-ultimate-maggie.png.adapt.crop16x9.652w.png"
 );
 
 const Mirage = new Legend(
@@ -181,7 +223,10 @@ const Mirage = new Legend(
   "Send out a holographic decoy to confuse the enemy",
   "Life of the Party",
   "Deploy a team of Decoys to distract enemies",
-  "Images/Mirage/Mirage-apex-randomizer.webp"
+  "Images/Mirage/Mirage-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-mirage.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-mirage.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-mirage.png.adapt.crop16x9.652w.png"
 );
 
 const Newcastle = new Legend(
@@ -193,7 +238,10 @@ const Newcastle = new Legend(
   "Throw a controllable drone that creates a moving energy shield",
   "Castle Wall",
   "Leap to an ally or target area and slam down, creating a fortified stronghold",
-  "Images/Newcastle/Newcastle-apex-randomizer.webp"
+  "Images/Newcastle/Newcastle-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/saviors/newcastle-legends-page/apex-grid-tile-legends-abilities-passive-newcastle.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/saviors/newcastle-legends-page/apex-grid-tile-legends-abilities-tactical-newcastle.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/saviors/newcastle-legends-page/apex-grid-tile-legends-abilities-ultimate-newcastle.png.adapt.crop16x9.652w.png"
 );
 
 const Octane = new Legend(
@@ -205,7 +253,10 @@ const Octane = new Legend(
   "Move 30% faster for six seconds. Costs health to use",
   "Launch Pad",
   "Deploy a jump pad that catapults teammates through the air",
-  "Images/Octane/Octane-apex-randomizer.webp"
+  "Images/Octane/Octane-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-octane.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-octane.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-octane.png.adapt.crop16x9.652w.png"
 );
 
 const Pathfinder = new Legend(
@@ -217,7 +268,10 @@ const Pathfinder = new Legend(
   "Grapple to get to out-of-reach places quickly",
   "Zipline Gun",
   "Create a zipline for everyone to use",
-  "Images/Pathfinder/Pathfinder-apex-randomizer.webp"
+  "Images/Pathfinder/Pathfinder-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-pathfinder.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-pathfinder.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-pathfinder.png.adapt.crop16x9.652w.png"
 );
 
 const Rampart = new Legend(
@@ -229,7 +283,10 @@ const Rampart = new Legend(
   "Build a crouch-cover wall, which deplys a full0cover amped wall that blocks incoming shots and amps outgoing shots",
   "Emplaced Minigun 'Shiela'",
   "Place a mounted machine gun that anyone can use. High ammo capacity, long reload time",
-  "Images/Rampart/Rampart-apex-randomizer.webp"
+  "Images/Rampart/Rampart-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/08/rampart/apex-grid-tile-legends-abilities-passive-rampart.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/08/rampart/apex-grid-tile-legends-abilities-tactical-rampart.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/08/rampart/apex-grid-tile-legends-abilities-ultimate-rampart.png.adapt.crop16x9.652w.png"
 );
 
 const Revenant = new Legend(
@@ -241,7 +298,10 @@ const Revenant = new Legend(
   "Throw a device that deals damage and siables enemy abilities",
   "Death Totem",
   "Drop a totem that protects those who use it from death for a set amount of time. Instead of being killed or downed, users will return to the totem",
-  "Images/Revenant/Revenant-apex-randomizer.webp"
+  "Images/Revenant/Revenant-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/02/revenant-assets/passive-revenant.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/02/revenant-assets/tactical-revenant.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2020/02/revenant-assets/ultimate-revenant.png.adapt.crop16x9.652w.png"
 );
 
 const Seer = new Legend(
@@ -249,11 +309,14 @@ const Seer = new Legend(
   "Offensive Legend",
   "Heart Seeker",
   "Hear and visualize the heartbeats of nearby enemies when aiming down sights",
-  "Focus of Attnetion",
+  "Focus of Attention",
   "Seer summons his micro-drones to emit a delayed blast that goes through walls interrupting and revealing enemies",
   "Exhibit",
   "Create a sphere of micro-drones that reveal the location of enemies moving quickly or firing their weapons within",
-  "Images/Seer/Seer-apex-randomizer.webp"
+  "Images/Seer/Seer-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/07/seer-assets/apex-grid-tile-legends-abilities-passive-seer.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/07/seer-assets/apex-grid-tile-legends-abilities-tactical-seer.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/07/seer-assets/apex-grid-tile-legends-abilities-ultimate-seer.png.adapt.crop16x9.652w.png"
 );
 
 const Valkyrie = new Legend(
@@ -265,7 +328,10 @@ const Valkyrie = new Legend(
   "Fire a swarm of mini-rockets that damage and disorient the enemy",
   "Skyward Dive",
   "Launch into the air and sky dive. Allies can hook into take-off system to join you",
-  "Images/Valkyrie/Valkyrie-apex-randomizer.webp"
+  "Images/Valkyrie/Valkyrie-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/04/apex-grid-tile-legends-abilities-passive-valkyrie.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/04/apex-grid-tile-legends-abilities-tactical-valkyrie.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2021/04/apex-grid-tile-legends-abilities-ultimate-valkyrie.png.adapt.crop16x9.652w.png"
 );
 
 const Vantage = new Legend(
@@ -277,7 +343,10 @@ const Vantage = new Legend(
   "Position your winged compainion Echo and then launch towards him. Must have line of sight for Echo to launch",
   "Sniper's Mark",
   "use your custom sniper rifle to mark enemy targets and apply a damage bonus for you and your team",
-  "Images/Vantage/Vantage-apex-randomizer.webp"
+  "Images/Vantage/Vantage-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/hunted/vantage/apex-grid-tile-legends-abilities-passive-vantage.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/hunted/vantage/apex-grid-tile-legends-abilities-tactical-vantage.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/common/hunted/vantage/apex-grid-tile-legends-abilities-ultimate-vantage.png.adapt.crop16x9.652w.png"
 );
 
 const Wattson = new Legend(
@@ -289,7 +358,10 @@ const Wattson = new Legend(
   "Connect nodes to create electrified fences that damage and slow enemies",
   "Interception Pylon",
   "Place an electrified pylon that destroys incoming ordnance and repairs damaged shields",
-  "Images/Wattson/Wattson-apex-randomizer.webp"
+  "Images/Wattson/Wattson-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-wattson.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-wattson.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-wattson.png.adapt.crop16x9.652w.png"
 );
 
 const Wraith = new Legend(
@@ -301,7 +373,10 @@ const Wraith = new Legend(
   "reposition quickly through the safety of void space, avoiding all damage",
   "Dimensional Rift",
   "Link two locations with portals for 60 seconds, allowing your entire team to use them",
-  "Images/Wraith/Wraith-apex-randomizer.webp"
+  "Images/Wraith/Wraith-apex-randomizer.webp",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-passive-wraith.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-tactical-wraith.png.adapt.crop16x9.652w.png",
+  "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/ability-icons/apex-grid-tile-legends-abilities-ultimate-wraith.png.adapt.crop16x9.652w.png"
 );
 const legendsArr = [
   Ash,
@@ -370,6 +445,8 @@ const again = [
   "not this one",
   "reroll",
   "redo",
+  "Reroll",
+  "Redo",
 ];
 //Date display 1. Change to "you last rolled at xxx time"
 const now = new Date();
@@ -458,6 +535,11 @@ const roll = document
     ).textContent = ` ${classLeg.ultimateInfo}`;
 
     document.getElementById("legendPic").src = `${classLeg.imageSrc}`; //this changes the picture of champion
+    document.getElementById("pasImg").src = `${classLeg.pasImg}`;
+
+    document.getElementById("tacImg").src = `${classLeg.tacImg}`;
+
+    document.getElementById("ultImg").src = `${classLeg.ultImg}`;
 
     if (timer) clearInterval(timer);
     timer = startTimer();

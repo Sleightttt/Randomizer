@@ -58,6 +58,13 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.dateTime,
+.message,
+.sinceLastRoll,
+.numberOfRolls {
+  font-family: "Black Ops One", cursive;
+}
+
 h1 {
   font-size: 35px;
   margin-bottom: 25px;
@@ -105,14 +112,14 @@ button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  color: #444;
+  color: rgb(222, 222, 222);
   border: none;
   font-family: inherit;
   font-size: 1.8rem;
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -126,6 +133,23 @@ button {
   height: 300px;
   width: 300px;
 }
+
+#legendPic {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.passiveImg {
+  display: flex;
+}
+
 .legendImg {
   height: 300px;
   width: 300px;
@@ -161,32 +185,37 @@ button {
   height: 40px;
   width: 40px;
 }
-.passive-name {
+.passive-name_box {
   display: flex;
   grid-area: passivename;
-
+  flex-direction: column;
   color: white;
   justify-content: center;
+  align-items: center;
 }
 .passive-desc {
   grid-area: passiveinfo;
   color: white;
 }
-.tac-name {
+.tac-name_box {
   display: flex;
   grid-area: tacname;
+  flex-direction: column;
   justify-content: center;
   color: white;
+  align-items: center;
 }
 .tac-desc {
   grid-area: tacinfo;
   color: white;
 }
-.ult-name {
+.ult-name_box {
   display: flex;
   grid-area: ultname;
+  flex-direction: column;
   justify-content: center;
   color: white;
+  align-items: center;
 }
 .ult-desc {
   grid-area: ultinfo;
