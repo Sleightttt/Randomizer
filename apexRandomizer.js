@@ -557,22 +557,3 @@ const roll = document
 
 //Make a dropdown of legends to omit from randomizer
 //Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
-//Example: ${legend} is a ${legend.offenseDefense} who excels at xxxx. ${legend.passive} is xxxxx. ${legend.tactical} is xxxxxx. ${legend.Ultimate} is xxxxx
-// class TestClass {
-//   constructor(testName, testDate) {
-//     this.testName = testName;
-//     this.testDate = testDate;
-//   }
-// }
-// const test1 = new TestClass("bob", "oct12");
-// const test2 = new TestClass("Jerry", "dec12");
-
-// const testArray = [test1, test2];
-// let randomtest = Math.trunc(Math.random() * testArray.length);
-// console.log(testArray[randomtest].testName);
-
-// let testyArr = [
-//   [2, 3],
-//   [4, 5],
-// ];
-// console.log([testyArr]);
