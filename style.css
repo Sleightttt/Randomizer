@@ -2,7 +2,8 @@
   width: auto;
 }
 article {
-  background-image: url(/Images/apex_legends_logo.jpg);
+  /* background-image: url(/Images/apex_legends_logo.jpg); */
+  background-color: rgba(255, 255, 255, 0.297);
   height: 1500px;
   margin-bottom: 40px;
   width: auto;
@@ -65,7 +66,9 @@ body {
 .message,
 .sinceLastRoll,
 .numberOfRolls {
-  font-family: "Black Ops One", cursive;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -93,7 +96,8 @@ p {
   width: auto;
   justify-content: center;
   font-size: 120px;
-  background: url(/Images/Scratched.jpg) no-repeat center center;
+  background: url(https://img.freepik.com/free-photo/black-mulberry-paper-textured-background_53876-129708.jpg?w=2000&t=st=1670622556~exp=1670623156~hmac=e0587c247563cead7d1e3811704692d6f4c72a4b5d2152aa9e37a7aabbc631fc)
+    no-repeat center center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -104,7 +108,7 @@ p {
 .randomizer {
   color: rgb(222, 222, 222);
   border: none;
-  font-family: inherit;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 1.8rem;
   cursor: pointer;
   font-weight: 400;

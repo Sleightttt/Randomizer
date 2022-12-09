@@ -462,10 +462,13 @@ const options = {
 
 let timer;
 //Time started at
-dateTimeLabel.textContent = `Started randomizing on ${new Intl.DateTimeFormat(
+dateTimeLabel.textContent = `STARTED RANDOMIZING ON ${new Intl.DateTimeFormat(
   locale,
   options
-).format(now)}`;
+)
+  .format(now)
+  .toString()
+  .toUpperCase()}`;
 
 //Random roll on button click + champion message update
 
@@ -475,7 +478,7 @@ const startTimer = function () {
     const min = String(Math.trunc(time / 60)).padStart(2, 0);
     const sec = String(time % 60).padStart(2, 0);
     //print time to ui in each call
-    sinceLastRollLabel.textContent = `${min}:${sec}s since last roll`;
+    sinceLastRollLabel.textContent = `${min}:${sec}s SINCE LAST ROLL`;
 
     if (time === 600) {
       sinceLastRollLabel.textContent = `A while since last roll`;
@@ -499,9 +502,9 @@ const roll = document
     let legendNumber = Math.trunc(Math.random() * legends.length);
     let legend = legends[legendNumber];
     let classLeg = legendsArr[legendNumber];
-    document.querySelector(
-      ".message"
-    ).textContent = `Your legend is ${legend}!`;
+    document.querySelector(".message").textContent = `YOUR LEGEND IS ${legend
+      .toString()
+      .toUpperCase()}!`;
 
     document.querySelector(".randomizer").textContent = `${randomRerollString}`;
 
@@ -552,7 +555,9 @@ const roll = document
       counts[x] = (counts[x] || 0) + 1;
     });
 
-    youHaveRolled.textContent = `You have rolled ${legend} ${counts[legend]} times`;
+    youHaveRolled.textContent = `YOU HAVE ROLLED ${legend
+      .toString()
+      .toUpperCase()} ${counts[legend]} TIMES`;
   });
 
 //Make a dropdown of legends to omit from randomizer
