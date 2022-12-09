@@ -1,8 +1,7 @@
-//Array of legends. 1. Make into objects 2. Put all objects in new array
 const dateTimeLabel = document.querySelector(".dateTime");
 const youHaveRolled = document.querySelector(".numberOfRolls");
 const sinceLastRollLabel = document.querySelector(".sinceLastRoll");
-// create objects for each legend with legend name, legend class, passivename, passiveinfo, tacticalname, tacticalinfo, ultimatename, ultimate
+
 class Legend {
   constructor(
     legendName,

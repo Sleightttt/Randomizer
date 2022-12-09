@@ -1,7 +1,11 @@
+* {
+  width: auto;
+}
 article {
   background-image: url(/Images/apex_legends_logo.jpg);
   height: 1500px;
   margin-bottom: 40px;
+  width: auto;
 }
 
 body {
@@ -15,6 +19,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 0;
+  width: auto;
 }
 
 .topnav {
