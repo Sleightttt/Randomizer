@@ -1,10 +1,6 @@
-* {
-  width: auto;
-}
 article {
-  /* background-image: url(/Images/apex_legends_logo.jpg); */
   background-color: rgba(255, 255, 255, 0.297);
-  height: 1500px;
+  height: auto;
   margin-bottom: 40px;
   width: auto;
 }
@@ -20,7 +16,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   margin-top: 0;
-  width: auto;
+  width: fit-content;
 }
 
 .topnav {
@@ -161,16 +157,18 @@ p {
     "ultname ultinfo"
     "extrainfo extrainfo";
   /* grid-template-rows: repeat(4, 1fr); */
-  margin: 1px 15%;
+
   background-image: url(Images/apex-section-bg-legends-catalyst-abilities-xl.jpg.adapt.1456w.jpg);
   border: solid rgb(91, 91, 91);
 }
 .grid-container > div {
-  border: solid rgb(91, 91, 91);
+  border: solid rgb(91, 91, 91, 0.2);
 }
 
 .infoContainer {
   height: 300px;
+  padding: 30px;
+  background-color: rgb(228, 223, 217);
 }
 
 .buttonContainer {
@@ -181,6 +179,7 @@ p {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-bottom: 10px;
 }
 .passive-name_box {
   display: flex;
@@ -237,8 +236,12 @@ p {
 }
 .legend-type {
   grid-area: extrainfo;
+  display: none;
+  color: white;
 }
 .extra-info {
   grid-area: extrainfo;
-  display: none;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
