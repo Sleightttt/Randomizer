@@ -124,11 +124,21 @@ p {
   width: 300px;
 }
 
-#legendPic {
-  animation: fadeIn 1s;
+.animate-in {
+  animation: animate-in 1s;
 }
-
-@keyframes fadeIn {
+.animate-in2 {
+  animation: animate-in2 1s;
+}
+@keyframes animate-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animate-in2 {
   0% {
     opacity: 0;
   }

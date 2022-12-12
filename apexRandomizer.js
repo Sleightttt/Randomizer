@@ -537,6 +537,7 @@ const roll = document
     ).textContent = ` ${classLeg.ultimateInfo}`;
 
     document.getElementById("legendPic").src = `${classLeg.imageSrc}`; //this changes the picture of champion
+
     document.getElementById("pasImg").src = `${classLeg.pasImg}`;
 
     document.getElementById("tacImg").src = `${classLeg.tacImg}`;
