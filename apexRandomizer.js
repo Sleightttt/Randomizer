@@ -1,6 +1,7 @@
 const dateTimeLabel = document.querySelector(".dateTime");
 const youHaveRolled = document.querySelector(".numberOfRolls");
 const sinceLastRollLabel = document.querySelector(".sinceLastRoll");
+const imgClass = document.querySelector(".legendImg");
 
 class Legend {
   constructor(
@@ -31,8 +32,7 @@ class Legend {
     this.ultImg = ultImg;
   }
 }
-///////////Champion info data
-///////Add icons in data somewhere
+//Move Legends classes to seperate file
 const Ash = new Legend(
   "Ash",
   "Offensive Legend",
@@ -470,14 +470,12 @@ dateTimeLabel.textContent = `STARTED RANDOMIZING ON ${new Intl.DateTimeFormat(
   .toString()
   .toUpperCase()}`;
 
-//Random roll on button click + champion message update
-
 //Begin tracking time
 const startTimer = function () {
   const tick = function () {
     const min = String(Math.trunc(time / 60)).padStart(2, 0);
     const sec = String(time % 60).padStart(2, 0);
-    //print time to ui in each call
+    //print time in each call
     sinceLastRollLabel.textContent = `${min}:${sec}s SINCE LAST ROLL`;
 
     if (time === 600) {
@@ -494,72 +492,78 @@ const startTimer = function () {
 };
 let rolls = []; //array that legend rolls will be pushed to
 
+//Random roll on button click + champion message update
 const roll = document
   .querySelector(".randomizer")
   .addEventListener("click", function (e) {
     e.preventDefault();
+
     let randomRerollString = again[Math.floor(Math.random() * again.length)];
     let legendNumber = Math.trunc(Math.random() * legends.length);
-    let legend = legends[legendNumber];
-    let classLeg = legendsArr[legendNumber];
-    document.querySelector(".message").textContent = `YOUR LEGEND IS ${legend
-      .toString()
-      .toUpperCase()}!`;
+    let legend = legendsArr[legendNumber];
+
+    document.querySelector(
+      ".message"
+    ).textContent = `YOUR LEGEND IS ${legend.legendName.toUpperCase()}!`;
 
     document.querySelector(".randomizer").textContent = `${randomRerollString}`;
 
     document.querySelector(
       ".legend-type"
-    ).textContent = ` ${classLeg.legendClass}`;
+    ).textContent = ` ${legend.legendClass}`;
 
     document.querySelector(
       ".passive-name"
-    ).textContent = ` ${classLeg.passiveName}`;
+    ).textContent = ` ${legend.passiveName}`;
 
     document.querySelector(
       ".passive-desc"
-    ).textContent = ` ${classLeg.passiveInfo}`;
+    ).textContent = ` ${legend.passiveInfo}`;
 
-    document.querySelector(
-      ".tac-name"
-    ).textContent = ` ${classLeg.tacticalName}`;
+    document.querySelector(".tac-name").textContent = ` ${legend.tacticalName}`;
 
-    document.querySelector(
-      ".tac-desc"
-    ).textContent = ` ${classLeg.tacticalInfo}`;
+    document.querySelector(".tac-desc").textContent = ` ${legend.tacticalInfo}`;
 
-    document.querySelector(
-      ".ult-name"
-    ).textContent = ` ${classLeg.ultimateName}`;
+    document.querySelector(".ult-name").textContent = ` ${legend.ultimateName}`;
 
-    document.querySelector(
-      ".ult-desc"
-    ).textContent = ` ${classLeg.ultimateInfo}`;
+    document.querySelector(".ult-desc").textContent = ` ${legend.ultimateInfo}`;
+    const infoBG = document.querySelector(".infoContainer");
+    infoBG.style.backgroundColor = "rgb(228, 223, 217)";
+    ///////////////
+    document.getElementById("legendPic").remove();
+    const img = document.createElement("img");
+    document.querySelector(".legendPicture").appendChild(img);
+    img.setAttribute("class", "legendImg animate-in");
+    img.id = "legendPic";
+    img.height = "300px";
 
-    document.getElementById("legendPic").src = `${classLeg.imageSrc}`; //this changes the picture of champion
+    img.src = `${legend.imageSrc}`;
+    //////////////
 
-    document.getElementById("pasImg").src = `${classLeg.pasImg}`;
+    document.querySelector(".legendImg").classList.add("animate-in");
 
-    document.getElementById("tacImg").src = `${classLeg.tacImg}`;
+    document.getElementById("pasImg").src = `${legend.pasImg}`;
 
-    document.getElementById("ultImg").src = `${classLeg.ultImg}`;
+    document.getElementById("tacImg").src = `${legend.tacImg}`;
+
+    document.getElementById("ultImg").src = `${legend.ultImg}`;
 
     if (timer) clearInterval(timer);
     timer = startTimer();
 
     //pushing the rolled lengend into empty rolls array
-    rolls.push(legend);
+    rolls.push(legend.legendName);
 
     let counts = {};
-    //storage for number of rolls on legend object
+    //storage for number of rolls on legend
     rolls.forEach(function (x) {
       counts[x] = (counts[x] || 0) + 1;
     });
 
-    youHaveRolled.textContent = `YOU HAVE ROLLED ${legend
-      .toString()
-      .toUpperCase()} ${counts[legend]} TIMES`;
+    youHaveRolled.textContent = `YOU HAVE ROLLED ${legend.legendName.toUpperCase()} ${
+      counts[legend.legendName]
+    } TIMES`;
   });
 
 //Make a dropdown of legends to omit from randomizer
-//Make a legend info box where an image of the rolled champion is diplayed, then fades away to an information box about their abilites
+//make a dropdown to weight legends

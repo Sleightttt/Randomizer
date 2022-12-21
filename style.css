@@ -114,6 +114,9 @@ p {
   border-radius: 50rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
+.randomizer:hover {
+  color: rgb(255, 41, 41);
+}
 
 .legendPicture {
   display: block;
@@ -122,14 +125,13 @@ p {
   width: 50%;
   height: 300px;
   width: 300px;
+  /* animation: animate-in 1s; */
 }
 
 .animate-in {
-  animation: animate-in 1s;
+  animation: animate-in 1.5s;
 }
-.animate-in2 {
-  animation: animate-in2 1s;
-}
+
 @keyframes animate-in {
   0% {
     opacity: 0;
@@ -138,14 +140,7 @@ p {
     opacity: 1;
   }
 }
-@keyframes animate-in2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .passiveImg {
   display: flex;
 }
@@ -153,6 +148,7 @@ p {
 .legendImg {
   height: 300px;
   width: 300px;
+  /* animation: animate-in 1s; */
 }
 
 .grid-container {
@@ -178,7 +174,7 @@ p {
 .infoContainer {
   height: 300px;
   padding: 30px;
-  background-color: rgb(228, 223, 217);
+  background-color: rgb(20, 22, 21);
 }
 
 .buttonContainer {
