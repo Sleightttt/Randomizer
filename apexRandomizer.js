@@ -529,7 +529,7 @@ const roll = document
     document.querySelector(".ult-desc").textContent = ` ${legend.ultimateInfo}`;
     const infoBG = document.querySelector(".infoContainer");
     infoBG.style.backgroundColor = "rgb(228, 223, 217)";
-    ///////////////
+    ///////////////////
     document.getElementById("legendPic").remove();
     const img = document.createElement("img");
     document.querySelector(".legendPicture").appendChild(img);
@@ -538,7 +538,7 @@ const roll = document
     img.height = "300px";
 
     img.src = `${legend.imageSrc}`;
-    //////////////
+    //////////////////
 
     document.querySelector(".legendImg").classList.add("animate-in");
 
