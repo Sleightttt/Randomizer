@@ -563,6 +563,3 @@ const roll = document
       counts[legend.legendName]
     } TIMES`;
   });
-
-//Make a dropdown of legends to omit from randomizer
-//make a dropdown to weight legends
