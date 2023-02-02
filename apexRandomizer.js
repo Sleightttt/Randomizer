@@ -3,6 +3,11 @@ const youHaveRolled = document.querySelector(".numberOfRolls");
 const sinceLastRollLabel = document.querySelector(".sinceLastRoll");
 const imgClass = document.querySelector(".legendImg");
 
+///////////
+//remake legend classes into a sequelize db
+//remake the entire page in react, using the new db
+
+/////////
 class Legend {
   constructor(
     legendName,
