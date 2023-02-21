@@ -7,6 +7,7 @@ const imgClass = document.querySelector(".legendImg");
 //remake legend classes into a sequelize db
 //remake the entire page in react, using the new db
 //create plumbing site for austin
+///moving all of this to a react site!
 
 /////////
 class Legend {
