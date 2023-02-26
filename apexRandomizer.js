@@ -8,6 +8,7 @@ const imgClass = document.querySelector(".legendImg");
 //remake the entire page in react, using the new db
 //create plumbing site for austin
 ///moving all of this to a react site!
+// maybe try to make site in pyhton as well
 
 /////////
 class Legend {
