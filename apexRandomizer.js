@@ -9,6 +9,7 @@ const imgClass = document.querySelector(".legendImg");
 //create plumbing site for austin
 ///moving all of this to a react site!
 // maybe try to make site in pyhton as well
+//use classes for legends. React for frontend
 
 /////////
 class Legend {
