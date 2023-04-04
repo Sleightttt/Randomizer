@@ -11,7 +11,7 @@ const imgClass = document.querySelector(".legendImg");
 // maybe try to make site in pyhton as well
 //use classes for legends. React for frontend
 //maybe try adding routes in flask, swith to python
-
+//make differnet files, my god
 /////////
 class Legend {
   constructor(
