@@ -575,3 +575,4 @@ const roll = document
   });
 //move leegend classes to seperate file
 //learn how to use require properly to set up seperate file for classes to be held in
+//refactor entire project to flask/react
